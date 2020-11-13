@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div>
-      <ul>
+      <ul data-testid="repository-list">
          {repositories.map(repository => {
           return <li  key={repository.id}>
            {repository.title}
